@@ -1,0 +1,265 @@
+/* Desktop Table CSS */
+.mpx-table {
+    border: 0 !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    text-align: left;
+    padding: 0 5px;
+    width: 100%;
+    max-width: 100%;
+    line-height: 28px;
+}
+.mpx-table tr.spacerrow {
+    height:3px;
+    background:#070809;
+}
+.mpx-table tr {
+    font-size: 14px;
+    border:0;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+.mpx-table tr:first-child {
+    border: 0;
+}
+.mpx-table td {
+    text-align: center;
+    padding: 17px 0 17px 0;
+    line-height: 28px;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    cursor: default;
+    transition: all 0.15s ease;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 0px;
+}
+.mpx-table th {
+    font-family: 'Josefin Sans';
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 0px;
+}
+.head-cell-gold, .head-cell-silver, .head-cell-platinum, .head-cell-palladium {
+    font-weight: 600;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-size: 20px;
+}
+.mpx-table th.head-cell-gold {
+   color: #e5c954;
+}
+.mpx-table th.head-cell-silver {
+   color: #adab9e;
+}
+.mpx-table th.head-cell-platinum {
+   color: #93b0be;
+}
+.mpx-table th.head-cell-palladium {
+   color: #9cdbd2;
+}
+.mpx-table td.per-weight {
+    font-size: 13px !important;
+    text-align: right !important;
+    padding: 0 15px 0 0 !important;
+    color: #fff;
+}
+.mpx-table th.per-weight {
+    background:#1b1c20;
+    max-width: initial;
+}
+.mpx-table .gold-cell.sel {
+   background: #ad983f;
+    color: #fff;
+}
+.mpx-table .gold-cell.buy {
+   background: #ad983f;
+    color: #fff;
+}
+.mpx-table .gold-cell.mrk {
+   background: #ad983f;
+    color: #fff;
+}
+.mpx-table .silver-cell.sel {
+   background: #848484;
+    color: #fff;
+}
+.mpx-table .silver-cell.buy {
+   background: #848484;
+    color: #fff;
+}
+.mpx-table .silver-cell.mrk {
+   background: #848484;
+    color: #fff;
+}
+.mpx-table .platinum-cell.sel {
+   background: #2F4858;
+    color: #fff;
+}
+.mpx-table .platinum-cell.buy {
+   background: #2F4858;
+    color: #fff;
+}
+.mpx-table .platinum-cell.mrk {
+   background: #2F4858;
+    color: #fff;
+}
+.mpx-table .palladium-cell.sel {
+   background: #1E606C;
+    color: #fff;
+}
+.mpx-table .palladium-cell.buy {
+   background: #1E606C;
+    color: #fff;
+}
+.mpx-table .palladium-cell.mrk {
+   background: #1E606C;
+    color: #fff;
+}
+.mpx-table .gold-cell.kg-cell {
+   background: #80712e;
+    color: #fff;
+}
+.mpx-table .silver-cell.kg-cell {
+   background: #545454;
+    color: #fff;
+}
+.mpx-table .platinum-cell.kg-cell {
+   background: #20323d;
+    color: #fff;
+}
+.mpx-table .palladium-cell.kg-cell {
+   background: #174952;
+    color: #fff;
+}
+.mpx-table .sell-buy-col:first-child {
+    width: 3.5%;
+    background:transparent !important;
+}
+.mpx-table .sell-buy-col {
+    text-align: center !important;
+    width: 7.5%;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 13px !important;
+    color:#fff;
+}
+.mpx-table .gold-sell-buy-col {
+    background: #2d2505;
+}
+.mpx-table .silver-sell-buy-col {
+    background: #222222;
+}
+.mpx-table .platinum-sell-buy-col {
+    background: #0a1013;
+}
+.mpx-table .palladium-sell-buy-col {
+    background: #061315;
+}
+.mpx-table .pr-un {
+    font-size: 12px;
+    font-weight: 900 !important;
+    line-height: 12px !important;
+    font-family: 'Raleway';
+    margin: 0 0 1px 0 !important;
+    display: block;
+    letter-spacing: 0;
+}
+.mpx-table .flagimg {
+    height: 14px;
+    vertical-align: text-bottom;
+    margin: 0 0 0 1px;
+}
+.mpx-table ul.tabs-nav li a {
+    font-size: 18px !important;
+    vertical-align: middle;
+    font-weight: 800!important;
+    line-height: 40px !important;
+}
+.mpx-table .q_tabs .tabs-nav {
+    margin-top: 40px;
+}
+.timedate {
+    color: #9d9d9d;
+    font-size: 11px;
+    line-height: 14px;
+    padding: 10px 0 10px 0 !important;
+    font-weight: 500 !important;
+    text-align: right;
+    text-transform: uppercase;
+    display:block;
+}
+.mpx-table tr:hover td {
+    filter: brightness(1.2);
+}
+.mpx-table tr:hover th.per-weight {
+    filter: brightness(2);
+}
+.mpx-table td:hover {
+    background: #fff !important;
+    color: #000 !important;
+    transition: all 0.15s ease;
+    cursor: default;
+}
+#mpx-table-refresh {
+    font-family: 'Raleway';
+    font-weight: 700;
+    border: none !important;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 24px;
+    background: #151515;
+    float: right;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    width: auto;
+    outline: none !important;
+    margin:0;
+}
+#mpx-table-refresh:hover {
+    background: #3d3636;
+}
+/* Mobile Tables CSS */
+.mpx-mobile {
+    margin: 0 0 40px 0;
+}
+@media (min-width: 1025px) {
+    .mpx-mobile {
+       display:none !important;
+   }
+}
+@media (max-width: 1024px) {
+    .mpx-mobile {
+       display: table !important;
+   }
+    .maintable {
+       display:none !important;
+   }
+    .mpx-mobile .gold-sell-buy-col {
+        background: #2d2505;
+   }
+    .mpx-mobile .silver-sell-buy-col {
+        background: #222222;
+   }
+    .mpx-mobile .platinum-sell-buy-col {
+        background: #0a1013;
+   }
+    .mpx-mobile .palladium-sell-buy-col {
+        background: #061315;
+   }
+}
+

@@ -40,9 +40,9 @@ The available options are AUD (Australian Dollars), BRL (Brazilian Reals), CAD (
 
 #### Other Options
 
-**Display Flags** - show/hide display flags next to each currency symbol.
-**Display Market Price** - show/hide the Market price column. 
-**Add refresh button** - show/hide the Refresh button.
+**Display Flags** - show/hide display flags next to each currency symbol.  
+**Display Market Price** - show/hide the Market price column.   
+**Add refresh button** - show/hide the Refresh button.  
 **Display time of last refresh** - show/hide the a string showing time of last refresh. 
 
 ## Shortcode

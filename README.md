@@ -1,6 +1,6 @@
 # Metal Prices XMLCharts WordPress Plugin
 
-![screenshot](assets/screenshot.jpg)
+![screenshot](assets/screenshot.png)
 
 The Metal Prices XMLCharts WordPress Plugin allows you to display a configurable precious metals price table on your website using a shortcode using the xmlcharts.com API, which has market price data for Gold, Silver, Platinum and Palladium in a variety of currencies. The plugin comes with a refresh button which can refresh the table data via AJAX. 
 

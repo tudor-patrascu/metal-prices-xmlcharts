@@ -22,6 +22,8 @@ In the Precious Metals XPF box, you will need to enter your server (where your W
 
 After the plugin has been activated, click on `Metal Prices` on the WordPress sidebar to configure it. Once done, click on `Save Changes` to apply all changes.
 
+![settings-screenshot](assets/settings-screenshot.png)
+
 #### Metals & Weights Setup
 
 Select which metals you want to display. The plugin will create a three columns for each metal selected, with selling prices, buying prices and market prices. At least one metal is required. 
